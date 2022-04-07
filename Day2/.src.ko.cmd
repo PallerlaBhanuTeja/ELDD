@@ -1,0 +1,1 @@
+cmd_/home/nikhila/device-drivers/03-EXPORT_SYMBOL/src.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/nikhila/device-drivers/03-EXPORT_SYMBOL/src.ko /home/nikhila/device-drivers/03-EXPORT_SYMBOL/src.o /home/nikhila/device-drivers/03-EXPORT_SYMBOL/src.mod.o;  true
